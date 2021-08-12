@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cronos" Version="0.7.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Business Layer\Tracking\VehicleTracking.ApplicationCore.Trackers\VehicleTracking.ApplicationCore.Trackers.csproj" />
+    <ProjectReference Include="..\..\..\Data Layer\Tracking\VehicleTracking.Tracking.Persistance\VehicleTracking.Tracking.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
